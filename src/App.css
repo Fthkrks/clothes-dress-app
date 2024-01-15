@@ -1,0 +1,40 @@
+.app{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+
+.app img{
+
+}
+
+
+.colors-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.colors-wrapper .color-wrapper {
+  width: 20px;
+  height: 20px;
+}
+
+.colors-wrapper .color-wrapper label {
+  display: inline-block;
+  border-radius: 100%; /* Düzeltme: 100% yerine 50% kullanılır */
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+
+.colors-wrapper label input{
+  display: none;
+}
+
